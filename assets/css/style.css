@@ -1,35 +1,47 @@
-body {
+body
+{
 	color: #777777;
 	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
 	background: #f0f0f0;
 }
 
-#header-container {
-	position: relative;
+#header-container
+{
 	font-family: 'Georgia', Times, 'Times New Roman', serif;
 	background: #ffffff;
 	height: 65px;
 }
 
-#name {
-	position: fixed;
-	left: 10%;
+#name
+{
+	float: left;
+	width: 25%;
 	background-color: #4aaaa5;
-	padding: 20px;
+	padding: 20px 0px;
 	color: white;
 	font-size: 25px;
 	font-weight: bolder;
+	margin-left: 10%;
+	margin-right: 20%;
+	text-align: center;
 }
 
-#nav-menu {
-	position: relative;
-	/*right: 10%;*/
-	left: 47%;
+#nav-menu
+{
 	width: 270px;
 	padding: 24px 0px;
 	font-size: 16px;
+	margin: 0px 32px;
 	text-decoration: none;
-	text-align: left;
+	text-align: center;
+	float: left;
+}
+
+#top-hr
+{
+	clear: both;
+	border: 1px solid #cccccc;
+	margin: 0px;
 }
 
 a {
@@ -39,9 +51,7 @@ a {
 
 #main-body {
 	clear: both;
-	/*position: relative;*/
-	border-top: 2px solid;
-	border-color: #cccccc;
+	margin-left: 10%;
 }
 
 h2 {
@@ -51,23 +61,22 @@ h2 {
 }
 
 #about-me, #portfolio, #contact {
-	/*clear: both;*/
 	float: left;
-	position: fixed;
-	left: 10%;
 	background: #ffffff;
 	padding: 25px;
-	width: 480px;
-	margin: 20px 60px 0px 0px;
-	display: block;
-	clear: both;
+	width: 50%;
+	margin: 20px 0px;
 }
 
-form {
+form
+{
 	margin-top: 20px;
 }
 
-input[type=text], input[type=email], textarea {
+input[type=text],
+input[type=email],
+textarea
+{
     width: 100%;
     padding: 10px;
     border: 1px solid #ccc;
@@ -77,7 +86,8 @@ input[type=text], input[type=email], textarea {
     resize: vertical
 }
 
-input[type=submit] {
+input[type=submit]
+{
     background-color: #4aaaa5;
     color: white;
     padding: 12px 20px;
@@ -85,13 +95,16 @@ input[type=submit] {
     border-radius: 4px;
     cursor: pointer;
 }
-.sample-image {
+
+.sample-image
+{
 	padding: 10px;
-	width: 180px;
-	height: 140px;
+	width: 40%;
+	height: 25%;
 }
 
-#portfolio p {
+#portfolio p
+{
 	position: absolute;
 	width: 180px;
 	bottom: 20px;
@@ -101,30 +114,28 @@ input[type=submit] {
 	text-align: center;
 }
 
-.about-me-text {
+.about-me-text
+{
 	padding-top: 10px;
 	line-height: 150%;
 }
 
-#my-photo {
+#my-photo
+{
 	float: left;
 	margin: 10px 20px 20px 0px;
 }
 
-h3 {
+h3
+{
 	color: #4aaaa5;
 	font-weight: bold;
 	font-size: 16px;
 }
 
-#connect {
-	/*display: block;*/
-	/*clear: both;*/
-	/*float: left;*/
-	position: absolute;
-	/*right: 14%;*/
-	left: 45%;
-	/*top: 0%;*/
+#connect
+{
+	float: left;
 	background: #ffffff;
 	padding: 20px;
 	width: 160px;
@@ -133,14 +144,16 @@ h3 {
 	text-align: center;
 }
 
-.icon {
+.icon
+{
 	height: 35px;
 	width: 35px;
 	padding: 5px;
 	margin: 0 auto;
 }
 
-footer {
+footer
+{
 	border-top: 6px solid;
 	border-color: #4aaaa5;
 	padding: 20px 0px;
@@ -152,3 +165,4 @@ footer {
 	color: #b5b5bf;
 	text-align: center;
 }
+
